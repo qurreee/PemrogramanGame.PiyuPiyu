@@ -16,6 +16,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="PiyuPiyu">
+      <UniqueIdentifier>{1e2c73b7-16e2-4a55-952c-effaba6de5e8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="sprite.frag">
@@ -152,6 +155,30 @@
     <ClInclude Include="Cactus.h">
       <Filter>Demo Files</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PPMenu.h">
+      <Filter>PiyuPiyu</Filter>
+    </ClInclude>
+    <ClInclude Include="PPGame.h">
+      <Filter>PiyuPiyu</Filter>
+    </ClInclude>
+    <ClInclude Include="PPOver.h">
+      <Filter>PiyuPiyu</Filter>
+    </ClInclude>
+    <ClInclude Include="PPManager.h">
+      <Filter>PiyuPiyu</Filter>
+    </ClInclude>
+    <ClInclude Include="PPPlayer.h">
+      <Filter>PiyuPiyu</Filter>
+    </ClInclude>
+    <ClInclude Include="PPEnemy.h">
+      <Filter>PiyuPiyu</Filter>
+    </ClInclude>
+    <ClInclude Include="PPCoba.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Shader.cpp">
@@ -277,5 +304,31 @@
     <ClCompile Include="Cactus.cpp">
       <Filter>Demo Files</Filter>
     </ClCompile>
+    <ClCompile Include="PPMenu.cpp">
+      <Filter>PiyuPiyu</Filter>
+    </ClCompile>
+    <ClCompile Include="PPGame.cpp">
+      <Filter>PiyuPiyu</Filter>
+    </ClCompile>
+    <ClCompile Include="PPOver.cpp">
+      <Filter>PiyuPiyu</Filter>
+    </ClCompile>
+    <ClCompile Include="PPManager.cpp">
+      <Filter>PiyuPiyu</Filter>
+    </ClCompile>
+    <ClCompile Include="PPPlayer.cpp">
+      <Filter>PiyuPiyu</Filter>
+    </ClCompile>
+    <ClCompile Include="PPEnemy.cpp">
+      <Filter>PiyuPiyu</Filter>
+    </ClCompile>
+    <ClCompile Include="PPCoba.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Project.rc">
+      <Filter>Shader Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

@@ -19,16 +19,18 @@
 #include "Dino_Game.h"
 #include "DinoMain.h"
 
-#include "Awooga.h"
+
+#include "PPCoba.h"
+#include "PPManager.h"
 
 int main(int argc, char** argv) {
 	Engine::Setting* setting = new Engine::Setting();
-	setting->screenWidth = 1600;
-	setting->screenHeight = 900;
+	setting->screenWidth = 1200;
+	setting->screenHeight = 600;
 	setting->windowFlag = Engine::WindowFlag::WINDOWED;
 	setting->vsync = true;
 	setting->targetFrameRate = 30;
-	Engine::Game* game = new Engine::DinoMain(setting);
+	Engine::Game* game = new Engine::PPManager(setting);
 	game->Run();
 	delete setting;
 	delete game;

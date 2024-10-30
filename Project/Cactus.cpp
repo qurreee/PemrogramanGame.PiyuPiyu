@@ -10,11 +10,11 @@ Engine::Cactus::Cactus(Sprite* sprite)
     // Inisialisasi posisi random dengan jarak minimal
     std::random_device rd;
     std::mt19937 gen(rd());
-    std::uniform_int_distribution<> distrib(0, 1500);
+    std::uniform_int_distribution<> distrib(0, 3200);
 
     int randomOffset = distrib(gen);
 
-    sprite->SetPosition(1590 + randomOffset, 0);  
+    sprite->SetPosition(1600 + randomOffset, 0);  
     xVelocity = 1.0f;
 }
 

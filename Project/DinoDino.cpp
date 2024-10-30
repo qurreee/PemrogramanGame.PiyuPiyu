@@ -22,18 +22,20 @@
 		game->SetBackgroundColor(255, 255, 255);
 
 		texture = new Texture("Chicken.png");
+		//bikin sprite
 		sprite = new Sprite(texture, game->GetDefaultSpriteShader(), game->GetDefaultQuad());
+		//bikin animasi sprite
 		sprite->SetNumXFrames(6)->SetNumYFrames(2)->AddAnimation("jump", 0, 5)->AddAnimation("walk", 6, 9)->SetScale(4)->SetAnimationDuration(50)->SetPosition(300, -10)->PlayAnim("walk");
+		//bounding box sprite
 		sprite->SetBoundingBoxSize(sprite->GetScaleWidth() - (16 * sprite->GetScale()), sprite->GetScaleHeight());
 	
 
 		game->GetInputManager()->AddInputMapping("jump", SDLK_SPACE)->AddInputMapping("jump", SDLK_UP);
-
-
+		game->GetInputManager()->AddInputMapping("up1", SDLK_w);
+		//text score
 		score = 0;
-		scored = false;
-		xVelocity = 10.0f;
 		text = (new Text("8-bit Arcade In.ttf", 100, game->GetDefaultTextShader()))->SetText("score " + std::to_string(score))->SetPosition( 350, game->GetSettings()->screenHeight - 100.0f)->SetColor(0, 0, 0);
+		
 		
 
 		//init cactuses
@@ -64,9 +66,7 @@
 	void Engine::DinoDino::Update()
 	{
 		sprite->Update(game->GetGameTime());
-		MoveLayer(backgrounds, 0.005f);
-		MoveLayer(middlegrounds, 0.03f);
-		MoveLayer(foregrounds, 0.5f);
+		
 
 		for (auto& cactus : cacti) {
 			cactus->Update(game->GetGameTime());
@@ -78,7 +78,7 @@
 				text->SetText("score " + std::to_string(score));
 				std::random_device rd;
 				std::mt19937 gen(rd());
-				std::uniform_int_distribution<> distrib(0, 3200); // Jarak minimal 100 pixel
+				std::uniform_int_distribution<> distrib(0, 3200);
 				int randomOffset = distrib(gen);
 				for (auto& cactus : cacti) {
 					cactus->SetPosition(1600 + randomOffset, 0);
@@ -126,6 +126,9 @@
 			text->SetText("score " + std::to_string(score));
 		}
 
+		MoveLayer(backgrounds, 0.005f);
+		MoveLayer(middlegrounds, 0.03f);
+		MoveLayer(foregrounds, 0.5f);
 	}
 
 	void Engine::DinoDino::Draw()

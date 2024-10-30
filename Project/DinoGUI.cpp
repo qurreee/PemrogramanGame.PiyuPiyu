@@ -75,7 +75,7 @@ void Engine::DinoGUI::Update()
 		b->SetButtonState(Engine::ButtonState::PRESS);
 		// If play button then go to InGame, exit button then exit
 		if ("play" == b->GetButtonName()) {
-			ScreenManager::GetInstance(game)->SetCurrentScreen("ingame");
+			ScreenManager::GetInstance(game)->SetCurrentScreen("dinogame");
 		}
 		else if ("exit" == b->GetButtonName()) {
 			game->SetState(Engine::State::EXIT);

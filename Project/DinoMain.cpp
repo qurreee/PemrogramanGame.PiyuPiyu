@@ -11,10 +11,8 @@ Engine::DinoMain::~DinoMain()
 
 void Engine::DinoMain::Init()
 {
-	Engine::ScreenManager::GetInstance(this)->AddScreen("ingame", new DinoDino())
+	Engine::ScreenManager::GetInstance(this)->AddScreen("dinogame", new DinoDino())
 		->AddScreen("mainmenu", new DinoGUI())->SetCurrentScreen("mainmenu");
-
-
 }
 
 void Engine::DinoMain::Update()

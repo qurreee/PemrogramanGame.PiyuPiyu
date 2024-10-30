@@ -23,6 +23,10 @@ void Engine::ScreenManager::Draw()
 
 Engine::ScreenManager* Engine::ScreenManager::AddScreen(string name, Screen* screen)
 {
+	if (!engine) {
+		std::cerr << "Error: engine is nullptr!" << std::endl;
+		return this; // Early exit to avoid further issues
+	}
 	screen->SetGame(engine);
 	screen->Init();
 	screens.insert(pair<string, Screen*>(name, screen));
