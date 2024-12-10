@@ -171,11 +171,14 @@ float Sprite::GetScaleHeight()
 
 BoundingBox* Sprite::GetBoundingBox()
 {
-	float x = position.x;
+	float x = position.x ;
 	float y = position.y;
 	float w = boundingBox->width, h = boundingBox->height;
 	float dx = GetScaleWidth() - w;
+	//bug fix
+	float dy = GetScaleHeight() - h;
 	x += 0.5f * dx;
+	y += 0.5f * dy;
 	vec2 p1 = GetRotatedPoint(x + w, y);
 	vec2 p2 = GetRotatedPoint(x + w, y + h);
 	vec2 p3 = GetRotatedPoint(x, y + h);
@@ -248,6 +251,7 @@ Engine::Sprite* Engine::Sprite::SetBoundingBoxSize(float w, float h)
 {
 	this->boundingBox->width = w;
 	this->boundingBox->height = h;
+
 	return this;
 }
 

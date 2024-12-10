@@ -117,6 +117,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -177,10 +178,13 @@
     <ClInclude Include="PPCoba.h" />
     <ClInclude Include="PPEnemy.h" />
     <ClInclude Include="PPGame.h" />
+    <ClInclude Include="PPGameData.h" />
+    <ClInclude Include="PPItem.h" />
     <ClInclude Include="PPManager.h" />
     <ClInclude Include="PPMenu.h" />
-    <ClInclude Include="PPOver.h" />
     <ClInclude Include="PPPlayer.h" />
+    <ClInclude Include="PPProjectile.h" />
+    <ClInclude Include="PPScoreBoard.h" />
     <ClInclude Include="Quad.h" />
     <ClInclude Include="BoundingBox.h" />
     <ClInclude Include="resource.h" />
@@ -229,10 +233,13 @@
     <ClCompile Include="PPCoba.cpp" />
     <ClCompile Include="PPEnemy.cpp" />
     <ClCompile Include="PPGame.cpp" />
+    <ClCompile Include="PPGameData.cpp" />
+    <ClCompile Include="PPItem.cpp" />
     <ClCompile Include="PPManager.cpp" />
     <ClCompile Include="PPMenu.cpp" />
-    <ClCompile Include="PPOver.cpp" />
     <ClCompile Include="PPPlayer.cpp" />
+    <ClCompile Include="PPProjectile.cpp" />
+    <ClCompile Include="PPScoreBoard.cpp" />
     <ClCompile Include="Quad.cpp" />
     <ClCompile Include="SATCollision.cpp" />
     <ClCompile Include="Screen.cpp" />

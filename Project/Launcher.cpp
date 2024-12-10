@@ -25,9 +25,9 @@
 
 int main(int argc, char** argv) {
 	Engine::Setting* setting = new Engine::Setting();
-	setting->screenWidth = 1200;
-	setting->screenHeight = 600;
-	setting->windowFlag = Engine::WindowFlag::WINDOWED;
+	setting->screenWidth = 1000;
+	setting->screenHeight = 1080;
+	setting->windowFlag = Engine::WindowFlag::FULLSCREEN;
 	setting->vsync = true;
 	setting->targetFrameRate = 30;
 	Engine::Game* game = new Engine::PPManager(setting);

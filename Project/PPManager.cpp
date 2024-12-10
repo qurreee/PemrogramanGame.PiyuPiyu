@@ -11,9 +11,7 @@ Engine::PPManager::~PPManager()
 
 void Engine::PPManager::Init()
 {
-	std::cout << "test1" << std::endl;
-	Engine::ScreenManager::GetInstance(this)->AddScreen("ingame1", new PPGame())->SetCurrentScreen("ingame1");
-	std::cout << "test24" << std::endl;
+	Engine::ScreenManager::GetInstance(this)->AddScreen("ingame", new PPGame())->AddScreen("menu", new PPMenu())->AddScreen("gameover", new PPScoreBoard())->SetCurrentScreen("menu");
 }
 
 void Engine::PPManager::Update()

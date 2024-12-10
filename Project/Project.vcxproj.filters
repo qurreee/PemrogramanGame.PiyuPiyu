@@ -164,9 +164,6 @@
     <ClInclude Include="PPGame.h">
       <Filter>PiyuPiyu</Filter>
     </ClInclude>
-    <ClInclude Include="PPOver.h">
-      <Filter>PiyuPiyu</Filter>
-    </ClInclude>
     <ClInclude Include="PPManager.h">
       <Filter>PiyuPiyu</Filter>
     </ClInclude>
@@ -178,6 +175,18 @@
     </ClInclude>
     <ClInclude Include="PPCoba.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PPProjectile.h">
+      <Filter>PiyuPiyu</Filter>
+    </ClInclude>
+    <ClInclude Include="PPGameData.h">
+      <Filter>PiyuPiyu</Filter>
+    </ClInclude>
+    <ClInclude Include="PPItem.h">
+      <Filter>PiyuPiyu</Filter>
+    </ClInclude>
+    <ClInclude Include="PPScoreBoard.h">
+      <Filter>PiyuPiyu</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -310,9 +319,6 @@
     <ClCompile Include="PPGame.cpp">
       <Filter>PiyuPiyu</Filter>
     </ClCompile>
-    <ClCompile Include="PPOver.cpp">
-      <Filter>PiyuPiyu</Filter>
-    </ClCompile>
     <ClCompile Include="PPManager.cpp">
       <Filter>PiyuPiyu</Filter>
     </ClCompile>
@@ -324,6 +330,18 @@
     </ClCompile>
     <ClCompile Include="PPCoba.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PPProjectile.cpp">
+      <Filter>PiyuPiyu</Filter>
+    </ClCompile>
+    <ClCompile Include="PPGameData.cpp">
+      <Filter>PiyuPiyu</Filter>
+    </ClCompile>
+    <ClCompile Include="PPItem.cpp">
+      <Filter>PiyuPiyu</Filter>
+    </ClCompile>
+    <ClCompile Include="PPScoreBoard.cpp">
+      <Filter>PiyuPiyu</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -17,8 +17,13 @@ void Engine::ScreenManager::Update()
 
 void Engine::ScreenManager::Draw()
 {
-	if (currentScreen == nullptr) return;
-	currentScreen->Draw();
+	 if (currentScreen == nullptr) return;
+
+    try {
+        currentScreen->Draw();
+    } catch (const std::exception& e) {
+        std::cerr << "Error in Screen::Draw: " << e.what() << std::endl;
+    }
 }
 
 Engine::ScreenManager* Engine::ScreenManager::AddScreen(string name, Screen* screen)
@@ -28,16 +33,31 @@ Engine::ScreenManager* Engine::ScreenManager::AddScreen(string name, Screen* scr
 		return this; // Early exit to avoid further issues
 	}
 	screen->SetGame(engine);
-	screen->Init();
 	screens.insert(pair<string, Screen*>(name, screen));
 	return this;
 }
 
 Engine::ScreenManager* Engine::ScreenManager::SetCurrentScreen(string name)
 {
-	this->currentScreen = screens[name];
-	return this;
+    // Simpan referensi ke layar saat ini sebelum mengganti layar
+    Screen* oldScreen = currentScreen;
+
+    // Set layar baru sebagai layar saat ini
+    currentScreen = screens[name];
+
+    // Inisialisasi layar baru
+    if (currentScreen != nullptr) {
+        currentScreen->Init();
+    }
+
+    // Bersihkan layar lama setelah mengganti layar
+    if (oldScreen != nullptr) {
+        oldScreen->CleanUp();
+    }
+
+    return this;
 }
+
 
 Engine::Screen* Engine::ScreenManager::GetCurrentScreen()
 {
