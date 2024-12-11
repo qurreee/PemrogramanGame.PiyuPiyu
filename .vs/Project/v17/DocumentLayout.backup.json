@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\fatah\\OneDrive\\Documents\\Semester 5\\Pemrogaman Game\\TemplateProject\\vs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A7560DDF-F4E9-43FC-8D50-6DAD2183B56D}|Project\\Project.vcxproj|C:\\Users\\fatah\\OneDrive\\Documents\\Semester 5\\Pemrogaman Game\\TemplateProject\\vs\\Project\\Launcher.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A7560DDF-F4E9-43FC-8D50-6DAD2183B56D}|Project\\Project.vcxproj|solutionrelative:Project\\Launcher.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7560DDF-F4E9-43FC-8D50-6DAD2183B56D}|Project\\Project.vcxproj|C:\\Users\\fatah\\OneDrive\\Documents\\Semester 5\\Pemrogaman Game\\TemplateProject\\vs\\Project\\Shader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A7560DDF-F4E9-43FC-8D50-6DAD2183B56D}|Project\\Project.vcxproj|solutionrelative:Project\\Shader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A7560DDF-F4E9-43FC-8D50-6DAD2183B56D}|Project\\Project.vcxproj|C:\\Users\\fatah\\OneDrive\\Documents\\Semester 5\\Pemrogaman Game\\TemplateProject\\vs\\Project\\PPGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A7560DDF-F4E9-43FC-8D50-6DAD2183B56D}|Project\\Project.vcxproj|solutionrelative:Project\\PPGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A7560DDF-F4E9-43FC-8D50-6DAD2183B56D}|Project\\Project.vcxproj|C:\\Users\\fatah\\OneDrive\\Documents\\Semester 5\\Pemrogaman Game\\TemplateProject\\vs\\Project\\PPPlayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7560DDF-F4E9-43FC-8D50-6DAD2183B56D}|Project\\Project.vcxproj|solutionrelative:Project\\PPPlayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A7560DDF-F4E9-43FC-8D50-6DAD2183B56D}|Project\\Project.vcxproj|C:\\Users\\fatah\\OneDrive\\Documents\\Semester 5\\Pemrogaman Game\\TemplateProject\\vs\\Project\\PPGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A7560DDF-F4E9-43FC-8D50-6DAD2183B56D}|Project\\Project.vcxproj|solutionrelative:Project\\PPGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7560DDF-F4E9-43FC-8D50-6DAD2183B56D}|Project\\Project.vcxproj|C:\\Users\\fatah\\OneDrive\\Documents\\Semester 5\\Pemrogaman Game\\TemplateProject\\vs\\Project\\PPPlayer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7560DDF-F4E9-43FC-8D50-6DAD2183B56D}|Project\\Project.vcxproj|solutionrelative:Project\\PPPlayer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fatah\\OneDrive\\Documents\\Semester 5\\Pemrogaman Game\\TemplateProject\\vs\\Project\\Lesson10_Platform.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 503,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,52 +42,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Launcher.cpp",
-              "DocumentMoniker": "C:\\Users\\fatah\\OneDrive\\Documents\\Semester 5\\Pemrogaman Game\\TemplateProject\\vs\\Project\\Launcher.cpp",
-              "RelativeDocumentMoniker": "Project\\Launcher.cpp",
-              "ToolTip": "C:\\Users\\fatah\\OneDrive\\Documents\\Semester 5\\Pemrogaman Game\\TemplateProject\\vs\\Project\\Launcher.cpp",
-              "RelativeToolTip": "Project\\Launcher.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-11T04:16:25.851Z",
+              "DocumentIndex": 3,
+              "Title": "PPPlayer.h",
+              "DocumentMoniker": "C:\\Users\\fatah\\OneDrive\\Documents\\Semester 5\\Pemrogaman Game\\TemplateProject\\vs\\Project\\PPPlayer.h",
+              "RelativeDocumentMoniker": "Project\\PPPlayer.h",
+              "ToolTip": "C:\\Users\\fatah\\OneDrive\\Documents\\Semester 5\\Pemrogaman Game\\TemplateProject\\vs\\Project\\PPPlayer.h",
+              "RelativeToolTip": "Project\\PPPlayer.h",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-11T05:39:03.647Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Shader.cpp",
-              "DocumentMoniker": "C:\\Users\\fatah\\OneDrive\\Documents\\Semester 5\\Pemrogaman Game\\TemplateProject\\vs\\Project\\Shader.cpp",
-              "RelativeDocumentMoniker": "Project\\Shader.cpp",
-              "ToolTip": "C:\\Users\\fatah\\OneDrive\\Documents\\Semester 5\\Pemrogaman Game\\TemplateProject\\vs\\Project\\Shader.cpp",
-              "RelativeToolTip": "Project\\Shader.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Title": "PPPlayer.cpp",
+              "DocumentMoniker": "C:\\Users\\fatah\\OneDrive\\Documents\\Semester 5\\Pemrogaman Game\\TemplateProject\\vs\\Project\\PPPlayer.cpp",
+              "RelativeDocumentMoniker": "Project\\PPPlayer.cpp",
+              "ToolTip": "C:\\Users\\fatah\\OneDrive\\Documents\\Semester 5\\Pemrogaman Game\\TemplateProject\\vs\\Project\\PPPlayer.cpp",
+              "RelativeToolTip": "Project\\PPPlayer.cpp",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEsAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-10T18:08:16.213Z"
+              "WhenOpened": "2024-12-11T05:38:43.076Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "PPGame.cpp",
               "DocumentMoniker": "C:\\Users\\fatah\\OneDrive\\Documents\\Semester 5\\Pemrogaman Game\\TemplateProject\\vs\\Project\\PPGame.cpp",
               "RelativeDocumentMoniker": "Project\\PPGame.cpp",
               "ToolTip": "C:\\Users\\fatah\\OneDrive\\Documents\\Semester 5\\Pemrogaman Game\\TemplateProject\\vs\\Project\\PPGame.cpp",
               "RelativeToolTip": "Project\\PPGame.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHsBAAASAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAtwE4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-10T14:49:43.734Z"
+              "WhenOpened": "2024-12-10T14:49:43.734Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "PPGame.h",
               "DocumentMoniker": "C:\\Users\\fatah\\OneDrive\\Documents\\Semester 5\\Pemrogaman Game\\TemplateProject\\vs\\Project\\PPGame.h",
               "RelativeDocumentMoniker": "Project\\PPGame.h",
               "ToolTip": "C:\\Users\\fatah\\OneDrive\\Documents\\Semester 5\\Pemrogaman Game\\TemplateProject\\vs\\Project\\PPGame.h",
               "RelativeToolTip": "Project\\PPGame.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAGgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-10T14:51:06.828Z"
+              "WhenOpened": "2024-12-10T14:51:06.828Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

@@ -100,5 +100,8 @@ namespace Engine {
 		//sound
 		Music* bgMusic = NULL;
 		Sound* shootSound = NULL;
+
+		Sound* explodeSound1 = NULL;
+		Sound* explodeSound2 = NULL;
 	};
 }

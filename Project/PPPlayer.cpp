@@ -73,6 +73,7 @@ void Engine::PPPlayer::Init(Game* game)
         p->Init(game,bltIndex);
         readyBullets.push_back(p);
     }
+    shootSound = new Sound("PiyuPiyuAssets/piyu.wav");
 }
 
 void Engine::PPPlayer::Update(float deltaTime)
@@ -183,6 +184,7 @@ void Engine::PPPlayer::Shoot()
         p->SetPosition(playerSprite->GetPosition().x, playerSprite->GetPosition().y + playerSprite->GetScaleHeight() * 0.2f); 
         p->yVelocity = 10; // Ke atas
         inUseBullets.push_back(p);
+        shootSound->Play(false);
         timeInterval = 0; // Reset interval waktu
     }
 }

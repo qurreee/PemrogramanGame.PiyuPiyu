@@ -69,6 +69,11 @@ void Engine::PPGame::Init()
 
 	shootSound = new Sound("PiyuPiyuAssets/piyu.wav");
 	shootSound->SetVolume(50);
+
+	explodeSound1 = new Sound("PiyuPiyuAssets/duar.wav");
+	explodeSound1->SetVolume(50);
+	explodeSound2 = new Sound("PiyuPiyuAssets/duar2.wav");
+	explodeSound2->SetVolume(50);
 }
 
 void Engine::PPGame::Update()
@@ -176,7 +181,7 @@ void Engine::PPGame::Update()
 	if (game->GetInputManager()->IsKeyPressed("atk1"))
 	{
 		P1->Shoot();
-		shootSound->Play(false);
+		
 	}
 	if (!P1->GetBoundingBox()->CollideWith(gameplayBg->GetBoundingBox()))
 	{
@@ -221,7 +226,6 @@ void Engine::PPGame::Update()
 		if (game->GetInputManager()->IsKeyPressed("atk2"))
 		{
 			P2->Shoot();
-			shootSound->Play(false);
 		}
 		if (!P2->GetBoundingBox()->CollideWith(gameplayBg->GetBoundingBox()))
 		{
@@ -343,6 +347,7 @@ void Engine::PPGame::Update()
 	{
 		if ((*it)->IsDie()) // Assuming GetHealth() returns the health of the player
 		{
+			explodeSound2->Play(false);
 			deadPlayers.push_back(*it); // Move to dead players
 			it = activePlayers.erase(it); // Remove from active players
 		}
@@ -683,7 +688,7 @@ void Engine::PPGame::DamagingEnemy()
 				{
 					deadEnemy.push_back(e); // Move the enemy to dead list
 					it = deployEnemy.erase(it); // Remove the enemy from deploy list
-
+					explodeSound1->Play(false);
 					if (player == P1) {
 						int score = (e->GetScoreValue() * player->GetModifier()) + (player->GetCombo() * player->GetModifier() * 10);
 						gameData.SetP1Score(gameData.GetP1Score() + score);
@@ -699,8 +704,6 @@ void Engine::PPGame::DamagingEnemy()
 
 					break; // Break out of the player loop since the enemy is already dead
 				}
-
-				
 			}
 		}
 		if (it != deployEnemy.end())

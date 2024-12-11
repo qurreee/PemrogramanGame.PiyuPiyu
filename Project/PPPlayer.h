@@ -4,6 +4,7 @@
 #include "Game.h"
 #include "BoundingBox.h"
 #include "Texture.h"
+#include "Sound.h"
 
 #include "PPProjectile.h"
 #include "PPEnemy.h"
@@ -69,5 +70,7 @@ namespace Engine {
 		int combo = 0;
 		bool doubleScore = false;
 		float doubleScoreDura = 15000;
+
+		Sound* shootSound = NULL;
 	};
 }
