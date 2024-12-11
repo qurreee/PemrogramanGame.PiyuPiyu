@@ -9,9 +9,6 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
-    <Filter Include="Demo Files">
-      <UniqueIdentifier>{34b4a4c9-782e-4ce9-bfa3-88e3da53d66a}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Shader Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
@@ -71,89 +68,14 @@
     <ClInclude Include="SATCollision.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Lesson01_BgColor.h">
-      <Filter>Demo Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Lesson02_Lerp.h">
-      <Filter>Demo Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Lesson03_Animation.h">
-      <Filter>Demo Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Lesson04_Movement.h">
-      <Filter>Demo Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Lesson05_Input.h">
-      <Filter>Demo Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Lesson06_ObjectPool.h">
-      <Filter>Demo Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Turtle.h">
-      <Filter>Demo Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Button.h">
-      <Filter>Demo Files</Filter>
-    </ClInclude>
-    <ClInclude Include="LessonAI01_SteeringBehaviors.h">
-      <Filter>Demo Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Lesson08_Rotation.h">
-      <Filter>Demo Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Lesson09_Bullet.h">
-      <Filter>Demo Files</Filter>
-    </ClInclude>
-    <ClInclude Include="BaseCharacter.h">
-      <Filter>Demo Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Enemy.h">
-      <Filter>Demo Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Hero.h">
-      <Filter>Demo Files</Filter>
-    </ClInclude>
-    <ClInclude Include="LessonAI02_NPCWave.h">
-      <Filter>Demo Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MainMenuScreen.h">
-      <Filter>Demo Files</Filter>
-    </ClInclude>
-    <ClInclude Include="InGameScreen.h">
-      <Filter>Demo Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Lesson07_GUI.h">
-      <Filter>Demo Files</Filter>
-    </ClInclude>
     <ClInclude Include="Screen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ScreenManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Lesson10_Platform.h">
-      <Filter>Demo Files</Filter>
-    </ClInclude>
     <ClInclude Include="Bullet.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Lesson11_ParallaxScrolling.h">
-      <Filter>Demo Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Dino_Game.h">
-      <Filter>Demo Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DinoMain.h">
-      <Filter>Demo Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DinoGUI.h">
-      <Filter>Demo Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DinoDino.h">
-      <Filter>Demo Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Cactus.h">
-      <Filter>Demo Files</Filter>
     </ClInclude>
     <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
@@ -173,9 +95,6 @@
     <ClInclude Include="PPEnemy.h">
       <Filter>PiyuPiyu</Filter>
     </ClInclude>
-    <ClInclude Include="PPCoba.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="PPProjectile.h">
       <Filter>PiyuPiyu</Filter>
     </ClInclude>
@@ -187,6 +106,9 @@
     </ClInclude>
     <ClInclude Include="PPScoreBoard.h">
       <Filter>PiyuPiyu</Filter>
+    </ClInclude>
+    <ClInclude Include="Launcher.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -223,60 +145,6 @@
     <ClCompile Include="SATCollision.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson01_BgColor.cpp">
-      <Filter>Demo Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Lesson02_Lerp.cpp">
-      <Filter>Demo Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Lesson03_Animation.cpp">
-      <Filter>Demo Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Lesson04_Movement.cpp">
-      <Filter>Demo Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Lesson05_Input.cpp">
-      <Filter>Demo Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Lesson06_ObjectPool.cpp">
-      <Filter>Demo Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Turtle.cpp">
-      <Filter>Demo Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Button.cpp">
-      <Filter>Demo Files</Filter>
-    </ClCompile>
-    <ClCompile Include="LessonAI01_SteeringBehaviors.cpp">
-      <Filter>Demo Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Lesson08_Rotation.cpp">
-      <Filter>Demo Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Lesson09_Bullet.cpp">
-      <Filter>Demo Files</Filter>
-    </ClCompile>
-    <ClCompile Include="BaseCharacter.cpp">
-      <Filter>Demo Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Enemy.cpp">
-      <Filter>Demo Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Hero.cpp">
-      <Filter>Demo Files</Filter>
-    </ClCompile>
-    <ClCompile Include="LessonAI02_NPCWave.cpp">
-      <Filter>Demo Files</Filter>
-    </ClCompile>
-    <ClCompile Include="MainMenuScreen.cpp">
-      <Filter>Demo Files</Filter>
-    </ClCompile>
-    <ClCompile Include="InGameScreen.cpp">
-      <Filter>Demo Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Lesson07_GUI.cpp">
-      <Filter>Demo Files</Filter>
-    </ClCompile>
     <ClCompile Include="Screen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -286,32 +154,8 @@
     <ClCompile Include="Quad.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Launcher.cpp">
-      <Filter>Demo Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Lesson10_Platform.cpp">
-      <Filter>Demo Files</Filter>
-    </ClCompile>
     <ClCompile Include="Bullet.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Lesson11_ParallaxScrolling.cpp">
-      <Filter>Demo Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Dino_Game.cpp">
-      <Filter>Demo Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DinoMain.cpp">
-      <Filter>Demo Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DinoGUI.cpp">
-      <Filter>Demo Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DinoDino.cpp">
-      <Filter>Demo Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Cactus.cpp">
-      <Filter>Demo Files</Filter>
     </ClCompile>
     <ClCompile Include="PPMenu.cpp">
       <Filter>PiyuPiyu</Filter>
@@ -328,9 +172,6 @@
     <ClCompile Include="PPEnemy.cpp">
       <Filter>PiyuPiyu</Filter>
     </ClCompile>
-    <ClCompile Include="PPCoba.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="PPProjectile.cpp">
       <Filter>PiyuPiyu</Filter>
     </ClCompile>
@@ -343,10 +184,18 @@
     <ClCompile Include="PPScoreBoard.cpp">
       <Filter>PiyuPiyu</Filter>
     </ClCompile>
+    <ClCompile Include="Launcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Project.rc">
       <Filter>Shader Files</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\Aseprite\Aseprite Exports\piyupiyuicon.ico">
+      <Filter>Shader Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
